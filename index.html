@@ -286,6 +286,150 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/27/“git命令小小笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/04/27/“git命令小小笔记/" class="post-title-link" itemprop="url">“git命令小小笔记</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-04-27 11:21:14 / Geändert am: 12:13:12" itemprop="dateCreated datePublished" datetime="2019-04-27T11:21:14+08:00">2019-04-27</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>1、cd：目录 ，<br>cd：d:brog<br>就是进入到指定目录。<br>2、git init<br>新建repository仓库，初始化1个repository仓库，生成1个.git的隐藏文件夹。<br>3、npm install<br>安装组件。<br>4、git clone 拷贝git仓库到自己家里查看或修改。如：<br>git clone url 克隆该url的项目下载下来<br>下载next主题<br>git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next<br>这个命令会生成在themes文件中，如果是其他的就会放在simplegit目录中。<br>5、ls：查看根目录的文件。<br>6、git status -s查看文件属性。<br>7、git add添加该文件并缓存格式如下：<br>git add  things1.txt things2.txt<br>8、vim：修改指定文件内容<br>vim things1.txt</p>
+<p>#wtf？<br>再使用git status -s查看属性<br>AM things1.txt<br>A    things2.txt<br>AM是缓存的文件有所改动。<br>9、git diff：显示显示已写入缓存与已修改但尚未写入缓存的改动的区别<br>尚未缓存的改动：git diff<br>查看已缓存的改动： git diff –cached<br>查看已缓存的与未缓存的所有改动：git diff HEAD<br>显示摘要而非整个 diff：git diff –stat<br>git status -s只看的到改动属性和文件。而git diff可以看到缓存未缓存的内容改动。<br>10、git config设置信息<br> git config –global user.name “1479679118pjx”<br>git config –global user.email ”不告诉你.com“<br>11、git commit 将缓存内容放在仓库中，和add一般连用。<br>创好自己的username 和email等配置信息。如第10.<br>git add  things1.txt things2.txt<br>git status -s查看。<br>git commit提交。<br>或者将git add的提交缓存省略<br>git commit -a<br>使用vim修改好内容后<br>接着再用<br>git commit -a<br>就能放到仓库啦<br>临时赶工，后期（今晚）补上。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/27/兜里有腊肠啊/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -741,7 +885,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
